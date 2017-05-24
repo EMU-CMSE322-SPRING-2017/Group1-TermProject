@@ -1,0 +1,10 @@
+Fikri Kurtulus - 131133
+Berke Muhtaroglu - 133429
+Ahmet Sezen - 142323
+
+
+Application default login informations
+
+* admin-admin     (ADMIN)
+* 131133-131133   (STUDENT)
+* emu0001-emu0001 (INSTRUCTOR)

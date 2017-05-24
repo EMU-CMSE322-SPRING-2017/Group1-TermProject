@@ -1,0 +1,331 @@
+06:23:31.803 Xcode[15357:191164] Beginning test session CoreDataDenemeTests-2A491BC2-7011-444E-9CFE-F7890E7E1AD0 at 2017-05-24 06:23:31.802 with Xcode 8E2002 on target <DVTiPhoneSimulator: 0x7fbc02457ae0> {
+		SimDevice: SimDevice : iPhone 7 Plus (66491251-9176-4186-8DC5-100D212FA763) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+} (10.3 (14E269))
+06:23:31.803 Xcode[15357:191164] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+06:23:31.803 Xcode[15357:215464] Sim iPhone 7 Plus: Unregistering for sim device notification with token 9
+06:23:31.804 Xcode[15357:215464] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+06:23:31.804 Xcode[15357:215464] Sim iPhone 7 Plus has testmanagerd socket at /private/tmp/com.apple.launchd.d0FLDw5IgN/com.apple.testmanagerd.unix-domain.socket
+06:23:31.804 Xcode[15357:215464] Validating test connection socket path (/private/tmp/com.apple.launchd.d0FLDw5IgN/com.apple.testmanagerd.unix-domain.socket)
+06:23:31.804 Xcode[15357:215464] Constructing transport for test connection socket
+06:23:31.804 Xcode[15357:215464] Connected socket 65 to testmanagerd for Sim iPhone 7 Plus
+06:23:31.805 Xcode[15357:215463] Received connection for test runner session
+06:23:31.805 Xcode[15357:215463] Listening for proxy connection request from the test bundle
+06:23:31.805 Xcode[15357:215463] Initiating session with identifier: 2A491BC2-7011-444E-9CFE-F7890E7E1AD0
+06:23:31.819 Xcode[15357:191164] Received Ready from iOSSimulator
+06:23:31.819 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc09aa45f0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:23:31.820 Xcode[15357:191164] Received Ready from iOSSimulator
+06:23:31.820 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc070137e0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:23:31.824 Xcode[15357:191164] Test runner session acquired connection.
+06:23:31.824 Xcode[15357:191164] Waiting for test process to launch.
+06:23:40.049 Xcode[15357:215533] Got reply to session initiation request with identifier 2A491BC2-7011-444E-9CFE-F7890E7E1AD0 (result:error): 22: (null)
+06:23:49.827 Xcode[15357:217123] 66491251-9176-4186-8DC5-100D212FA763: Registered for sim device notification, got token 10
+06:23:49.827 Xcode[15357:216685] 66491251-9176-4186-8DC5-100D212FA763: Unregistering for sim device notification with token 10
+06:23:49.828 Xcode[15357:216689] 66491251-9176-4186-8DC5-100D212FA763: Installing app at path: /Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator/CoreDataDenemeUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.CoreDataDenemeUITests-Runner";
+}
+06:23:49.830 Xcode[15357:191164] Received Ready from iOSSimulator
+06:23:49.830 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc0b180c60 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:23:49.831 Xcode[15357:191164] Received Ready from iOSSimulator
+06:23:49.831 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc0228c620 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:23:55.154 Xcode[15357:216689] 66491251-9176-4186-8DC5-100D212FA763: Installed app at path: /Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator/CoreDataDenemeUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.CoreDataDenemeUITests-Runner";
+}
+06:23:55.159 Xcode[15357:216689] 66491251-9176-4186-8DC5-100D212FA763: Registered for sim device notification, got token 11
+06:23:55.159 Xcode[15357:216693] 66491251-9176-4186-8DC5-100D212FA763: Unregistering for sim device notification with token 11
+06:23:55.160 Xcode[15357:191164] Received Ready from iOSSimulator
+06:23:55.160 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc09af5130 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:23:55.626 Xcode[15357:216689] 66491251-9176-4186-8DC5-100D212FA763: Launching app with identifier: com.apple.test.CoreDataDenemeUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/mj/7bwc05c93kd0t83_lgf6hb5w0000gn/T/com.apple.dt.XCTest/50122610-B49E-4DD7-B747-003F6A681B5A/remote-container/tmp/CoreDataDenemeUITests-50122610-B49E-4DD7-B747-003F6A681B5A.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+06:23:55.674 Xcode[15357:217724] 66491251-9176-4186-8DC5-100D212FA763: Launched app with identifier: com.apple.test.CoreDataDenemeUITests-Runner (pid = 18412)
+06:23:55.675 Xcode[15357:217724] Tracking pid 18412 for simulator <DVTiPhoneSimulator: 0x7fbc02457ae0> {
+		SimDevice: SimDevice : iPhone 7 Plus (66491251-9176-4186-8DC5-100D212FA763) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+06:23:55.675 Xcode[15357:217724] Checking to see if pid 18412 is valid: kill(pid, 0) = 0 (YES, it's still running)
+06:23:55.675 Xcode[15357:217724] Setting up DVTTaskNotifyOnProcDeath for pid 18412
+06:24:01.913 Xcode[15357:217692] Checking to see if pid 18412 is valid: kill(pid, 0) = 0 (YES, it's still running)
+06:24:01.917 Xcode[15357:217724] Checking to see if pid 18412 is valid: kill(pid, 0) = 0 (YES, it's still running)
+06:24:01.917 Xcode[15357:191164] Received Ready from iOSSimulator
+06:24:01.918 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc0a2ea5c0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:24:01.920 Xcode[15357:217724] 66491251-9176-4186-8DC5-100D212FA763: Registered for sim device notification, got token 13
+06:24:01.920 Xcode[15357:217123] 66491251-9176-4186-8DC5-100D212FA763: Unregistering for sim device notification with token 13
+06:24:01.921 Xcode[15357:191164] Received Ready from iOSSimulator
+06:24:01.921 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc0b66c070 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:24:01.922 Xcode[15357:216671] 66491251-9176-4186-8DC5-100D212FA763: Installing app at path: /Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator/CoreDataDeneme.app and options: {
+    CFBundleIdentifier = "megts.CoreDataDeneme";
+}
+06:24:07.324 Xcode[15357:216671] 66491251-9176-4186-8DC5-100D212FA763: Installed app at path: /Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator/CoreDataDeneme.app and options: {
+    CFBundleIdentifier = "megts.CoreDataDeneme";
+}
+06:24:07.324 Xcode[15357:216671] 66491251-9176-4186-8DC5-100D212FA763: Launching app with identifier: megts.CoreDataDeneme and options: {
+    arguments =     (
+    );
+    environment =     {
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_MODE" = info;
+    };
+    stderr = "/dev/ttys003";
+    stdout = "/dev/ttys003";
+    "wait_for_debugger" = 1;
+}
+06:24:07.367 Xcode[15357:217123] 66491251-9176-4186-8DC5-100D212FA763: Launched app with identifier: megts.CoreDataDeneme (pid = 18425)
+06:24:07.368 Xcode[15357:217123] Tracking pid 18425 for simulator <DVTiPhoneSimulator: 0x7fbc02457ae0> {
+		SimDevice: SimDevice : iPhone 7 Plus (66491251-9176-4186-8DC5-100D212FA763) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+06:24:07.368 Xcode[15357:217123] Checking to see if pid 18412 is valid: kill(pid, 0) = 0 (YES, it's still running)
+06:24:07.368 Xcode[15357:217123] Checking to see if pid 18425 is valid: kill(pid, 0) = 0 (YES, it's still running)
+06:24:07.368 Xcode[15357:217123] Setting up DVTTaskNotifyOnProcDeath for pid 18425
+06:24:12.051 Xcode[15357:191164] Got death notice for pid 18412, removing from SimulatorSessionMap
+06:24:12.051 Xcode[15357:191164] Checking to see if pid 18425 is valid: kill(pid, 0) = -1 (NO, it's dead)
+06:24:12.051 Xcode[15357:191164] Removing 18425 (dead) from SimulatorSessionMap
+06:24:12.051 Xcode[15357:191164] Got death notice for pid 18425, removing from SimulatorSessionMap
+06:24:12.163 Xcode[15357:191164] Launch session started.
+06:24:12.201 Xcode[15357:191164] Adding console adaptor <IDEConsoleAdaptor: 0x7fbc0a248b80 'target'> for test session 2A491BC2-7011-444E-9CFE-F7890E7E1AD0.
+06:24:12.201 Xcode[15357:191164] Received Ready from iOSSimulator
+06:24:12.201 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc09f92e30 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:24:12.204 Xcode[15357:217692] 66491251-9176-4186-8DC5-100D212FA763: Registered for sim device notification, got token 14
+06:24:12.204 Xcode[15357:216693] 66491251-9176-4186-8DC5-100D212FA763: Unregistering for sim device notification with token 14
+06:24:12.204 Xcode[15357:191164] Received Ready from iOSSimulator
+06:24:12.204 Xcode[15357:191164] Sending notification: NSConcreteNotification 0x7fbc078ae3d0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "66491251-9176-4186-8DC5-100D212FA763";
+}}
+06:24:12.205 Xcode[15357:218276] 66491251-9176-4186-8DC5-100D212FA763: Installing app at path: /Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator/CoreDataDeneme.app and options: {
+    CFBundleIdentifier = "megts.CoreDataDeneme";
+}
+06:24:16.851 Xcode[15357:218276] 66491251-9176-4186-8DC5-100D212FA763: Installed app at path: /Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator/CoreDataDeneme.app and options: {
+    CFBundleIdentifier = "megts.CoreDataDeneme";
+}
+06:24:16.853 Xcode[15357:218276] 66491251-9176-4186-8DC5-100D212FA763: Launching app with identifier: megts.CoreDataDeneme and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection";
+        "DYLD_LIBRARY_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator/CoreDataDeneme.app/CoreDataDeneme";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/mj/7bwc05c93kd0t83_lgf6hb5w0000gn/T/com.apple.dt.XCTest/2A491BC2-7011-444E-9CFE-F7890E7E1AD0/remote-container/tmp/CoreDataDenemeTests-2A491BC2-7011-444E-9CFE-F7890E7E1AD0.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+06:24:16.891 Xcode[15357:216693] 66491251-9176-4186-8DC5-100D212FA763: Launched app with identifier: megts.CoreDataDeneme (pid = 18430)
+06:24:16.892 Xcode[15357:216693] Tracking pid 18430 for simulator <DVTiPhoneSimulator: 0x7fbc02457ae0> {
+		SimDevice: SimDevice : iPhone 7 Plus (66491251-9176-4186-8DC5-100D212FA763) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-7-Plus } runtime={ SimRuntime : 10.3 (14E269) - com.apple.CoreSimulator.SimRuntime.iOS-10-3 }
+}
+06:24:16.892 Xcode[15357:216693] Checking to see if pid 18430 is valid: kill(pid, 0) = 0 (YES, it's still running)
+06:24:16.892 Xcode[15357:216693] Setting up DVTTaskNotifyOnProcDeath for pid 18430
+06:24:16.892 Xcode[15357:191164] Test process runnable PID is 18430.
+06:24:18.615 Xcode[15357:191164] Waiting for test process to check in..., will wait up to 120s
+06:24:19.290 Xcode[15357:217692] Handling proxy channel request from test runner
+06:24:19.290 Xcode[15357:217692] Test runner is ready, running protocol 22, requires at least version 8. Control framework is running 22 and requires at least 8
+06:24:19.290 Xcode[15357:191164] Test runner session successfully initiated.
+06:24:19.290 Xcode[15357:191164] Creating the daemon control session.
+06:24:19.290 Xcode[15357:191164] Whitelisting test process ID 18430
+06:24:19.290 Xcode[15357:191164] Got authorization request for pid 18430
+06:24:19.291 Xcode[15357:218276] Requesting authorization for pid 18430
+06:24:19.295 Xcode[15357:217692] Got reply to authorization request for pid 18430 (result:error): 22: (null)
+06:24:19.295 Xcode[15357:191164] Got whitelisting response from test daemon. Success: 1
+06:24:19.295 testmanagerd[17725:215761] Received request to collect crash reports in directories '/Users/xferian/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'CoreDataDeneme', 'xctest'
+06:24:19.296 testmanagerd[17725:215761] Initializing crash report observer for /Users/xferian/Library/Logs/DiagnosticReports
+06:24:19.296 testmanagerd[17725:215761] Getting files in /Users/xferian/Library/Logs/DiagnosticReports
+06:24:19.297 testmanagerd[17725:215761] Found 6 files in /Users/xferian/Library/Logs/DiagnosticReports
+06:24:19.298 testmanagerd[17725:215761] Started monitoring /Users/xferian/Library/Logs/DiagnosticReports
+06:24:19.298 testmanagerd[17725:215761] Initializing crash report observer for /Library/Logs/DiagnosticReports
+06:24:19.299 testmanagerd[17725:215761] Getting files in /Library/Logs/DiagnosticReports
+06:24:19.300 testmanagerd[17725:215761] Found 74 files in /Library/Logs/DiagnosticReports
+06:24:19.301 testmanagerd[17725:215761] Started monitoring /Library/Logs/DiagnosticReports
+06:24:18.998 CoreDataDeneme[18430:218356] Linked XCTest.framework from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0832(), modified on Wednesday, April 12, 2017 at 9:49:43 PM GMT+03:00
+06:24:18.998 CoreDataDeneme[18430:218356] XCTest.framework bundle version: 12124
+06:24:18.999 CoreDataDeneme[18430:218356] System uptime: 4:44:10
+06:24:18.999 CoreDataDeneme[18430:218356] Process arguments: (
+    "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data/Containers/Bundle/Application/D3A54049-F054-4D43-9EEE-CC80E1839020/CoreDataDeneme.app/CoreDataDeneme",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+06:24:19.000 CoreDataDeneme[18430:218356] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data/Containers/Data/Application/1974E093-46C1-47CC-A50D-693269E981EC";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.SR5C4t4n7N/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "DYLD_SHARED_REGION" = avoid;
+    HOME = "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data/Containers/Data/Application/1974E093-46C1-47CC-A50D-693269E981EC";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.66491251-9176-4186-8DC5-100D212FA763.launchd_sim/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data";
+    "IPHONE_SIMULATOR_CLASS" = D11;
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data/Library/Application Support/Simulator/extended_display.plist";
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/sbin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/local/bin";
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7 Plus.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 7 Plus";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/Resources/Platforms/iphoneos/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/xferian";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/xferian/Library/Logs/CoreSimulator/66491251-9176-4186-8DC5-100D212FA763";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 2208;
+    "SIMULATOR_MAINSCREEN_PITCH" = "461.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "3.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 1242;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone9,2";
+    "SIMULATOR_PLATFORM_RUNTIME_OVERLAY_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/CoreSimulator/RuntimeOverlay";
+    "SIMULATOR_PRODUCT_CLASS" = D11;
+    "SIMULATOR_ROOT" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 14E269;
+    "SIMULATOR_RUNTIME_VERSION" = "10.3";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data";
+    "SIMULATOR_UDID" = "66491251-9176-4186-8DC5-100D212FA763";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 375.21 - Device: iPhone 7 Plus - Runtime: iOS 10.3 (14E269) - DeviceType: iPhone 7 Plus";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.d0FLDw5IgN/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/xferian/Library/Developer/CoreSimulator/Devices/66491251-9176-4186-8DC5-100D212FA763/data/Containers/Data/Application/1974E093-46C1-47CC-A50D-693269E981EC/tmp";
+    XCInjectBundleInto = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator/CoreDataDeneme.app/CoreDataDeneme";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/mj/7bwc05c93kd0t83_lgf6hb5w0000gn/T/com.apple.dt.XCTest/2A491BC2-7011-444E-9CFE-F7890E7E1AD0/remote-container/tmp/CoreDataDenemeTests-2A491BC2-7011-444E-9CFE-F7890E7E1AD0.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:megts.CoreDataDeneme[0xf40a][17246]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.66491251-9176-4186-8DC5-100D212FA763.launchd_sim";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/xferian/Library/Developer/Xcode/DerivedData/CoreDataDeneme-egeqxctzhpmzaughqlaxthluppfb/Build/Products/Debug-iphonesimulator";
+}
+06:24:19.001 CoreDataDeneme[18430:218356] <XCTWaiter: 0x61800000fe10> entering wait loop for 5.00s
+06:24:19.006 CoreDataDeneme[18430:218412] Got daemon protocol version 12
+06:24:19.006 CoreDataDeneme[18430:218402] <XCTWaiter: 0x61800000fe10>: cancelWaiting
+06:24:19.181 CoreDataDeneme[18430:218356] <XCTWaiter: 0x61800000fe10> done waiting
+06:24:19.181 CoreDataDeneme[18430:218356] <XCTWaiter: 0x61800000fe10> cleaning up Exchange protocol versions with daemon
+06:24:19.181 CoreDataDeneme[18430:218356] Requesting socket
+06:24:19.182 CoreDataDeneme[18430:218356] <XCTWaiter: 0x610000010e10> entering wait loop for 30.00s
+06:24:19.288 CoreDataDeneme[18430:218412] <XCTWaiter: 0x610000010e10>: cancelWaiting
+06:24:19.288 CoreDataDeneme[18430:218356] <XCTWaiter: 0x610000010e10> done waiting
+06:24:19.288 CoreDataDeneme[18430:218356] <XCTWaiter: 0x610000010e10> cleaning up Socket for IDE session acquired
+06:24:19.288 CoreDataDeneme[18430:218356] Creating transport with socket 7
+06:24:19.288 CoreDataDeneme[18430:218356] Creating connection with transport <DTXSocketTransport: 0x60000010ea90>
+06:24:19.289 CoreDataDeneme[18430:218356] Creating the proxy channel with connection <DTXConnection 0x6000001fa200 : x1>
+06:24:19.290 CoreDataDeneme[18430:218356] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:22 minimumVersion:8
+06:24:19.290 CoreDataDeneme[18430:218356] <XCTWaiter: 0x610000010e30> entering wait loop for 30.00s
+06:24:19.290 CoreDataDeneme[18430:218402] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+06:24:19.302 CoreDataDeneme[18430:218413] _IDE_startExecutingTestPlanWithProtocolVersion:22
+06:24:19.302 CoreDataDeneme[18430:218411] <XCTWaiter: 0x610000010e30>: cancelWaiting
+06:24:19.302 CoreDataDeneme[18430:218356] <XCTWaiter: 0x610000010e30> done waiting
+06:24:19.302 CoreDataDeneme[18430:218356] <XCTWaiter: 0x610000010e30> cleaning up IDE session ready for test plan
+06:24:19.305 Xcode[15357:191164] Starting test plan, clearing initialization timeout timer.
+06:24:19.305 CoreDataDeneme[18430:218356] Loading test suite...
+06:24:19.368 CoreDataDeneme[18430:218356] Finished loading test suite, took 0.063s
+06:24:19.368 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testBundleWillStart:]
+06:24:19.368 CoreDataDeneme[18430:218356] Running suite...
+06:24:19.369 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testSuiteWillStart:]
+06:24:19.369 Xcode[15357:191164] _XCT_testSuite:All tests didStartAt:2017-05-24 03:24:19 +0000
+06:24:19.374 Xcode[15357:218276] (LOG ARBITER) Dumping buffered message data; 0 messages.
+06:24:19.731 Xcode[15357:216695] (LOG ARBITER) Dumping buffered message data; 0 messages.
+Connected via WiFi
+Test Suite 'All tests' started at 2017-05-24 06:24:19.368
+06:24:19.369 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testSuiteWillStart:]
+Test Suite 'CoreDataDenemeTests.xctest' started at 2017-05-24 06:24:19.369
+06:24:19.370 Xcode[15357:191164] _XCT_testSuite:CoreDataDenemeTests.xctest didStartAt:2017-05-24 03:24:19 +0000
+06:24:19.370 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testSuiteWillStart:]
+06:24:19.370 Xcode[15357:191164] _XCT_testSuite:CoreDataDenemeTests didStartAt:2017-05-24 03:24:19 +0000
+Test Suite 'CoreDataDenemeTests' started at 2017-05-24 06:24:19.369
+06:24:19.370 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDenemeTests.CoreDataDenemeTests testExample
+06:24:19.371 Xcode[15357:191164] _XCT_testCaseDidStartForTestClass:CoreDataDenemeTests.CoreDataDenemeTests method:testExample
+Test Case '-[CoreDataDenemeTests.CoreDataDenemeTests testExample]' started.
+06:24:19.372 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testCaseDidFinish:]
+06:24:19.374 Xcode[15357:191164] _XCT_testCaseDidFinishForTestClass:CoreDataDenemeTests.CoreDataDenemeTests method:testExample withStatus:passed duration:0.001801013946533203
+06:24:19.372 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testCaseWillStart:] CoreDataDenemeTests.CoreDataDenemeTests testPerformanceExample
+06:24:19.374 Xcode[15357:191164] _XCT_testCaseDidStartForTestClass:CoreDataDenemeTests.CoreDataDenemeTests method:testPerformanceExample
+Test Case '-[CoreDataDenemeTests.CoreDataDenemeTests testExample]' passed (0.002 seconds).
+06:24:19.376 testmanagerd[17725:215761] AX Notification 4002
+06:24:19.377 testmanagerd[17725:215761] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+06:24:19.377 testmanagerd[17725:215761] AX Notification 4002
+06:24:19.378 testmanagerd[17725:215761] Got user testing notification with payload {
+    controllerClass = SBLeafIconViewController;
+    event = ViewDidAppear;
+}
+06:24:19.378 testmanagerd[17725:215761] AX Notification 1000
+06:24:19.379 testmanagerd[17725:215761] AX Notification 4002
+06:24:19.379 testmanagerd[17725:215761] Got user testing notification with payload {
+    controllerClass = SBIconController;
+    event = ViewDidDisappear;
+}
+Test Case '-[CoreDataDenemeTests.CoreDataDenemeTests testPerformanceExample]' started.
+06:24:19.729 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:]
+06:24:19.729 Xcode[15357:191164] -[XCTTestRunnerSession _XCT_testMethod:ofClass:didMeasureMetric:file:line:]_block_invoke
+/Users/xferian/Desktop/s2on/CoreDataDeneme 2/CoreDataDenemeTests/CoreDataDenemeTests.swift:33: Test Case '-[CoreDataDenemeTests.CoreDataDenemeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 143.189%, values: [0.000005, 0.000001, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+06:24:19.729 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testCaseDidFinish:]
+06:24:19.731 Xcode[15357:191164] _XCT_testCaseDidFinishForTestClass:CoreDataDenemeTests.CoreDataDenemeTests method:testPerformanceExample withStatus:passed duration:0.3572239875793457
+Test Case '-[CoreDataDenemeTests.CoreDataDenemeTests testPerformanceExample]' passed (0.357 seconds).
+06:24:19.730 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testSuiteDidFinish:]
+06:24:19.731 Xcode[15357:191164] _XCT_testSuite:CoreDataDenemeTests didFinishAt:2017-05-24 03:24:19 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.3590250015258789 totalDuration:0.3600810170173645
+06:24:19.730 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testSuiteDidFinish:]
+06:24:19.731 Xcode[15357:191164] _XCT_testSuite:CoreDataDenemeTests.xctest didFinishAt:2017-05-24 03:24:19 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.3590250015258789 totalDuration:0.3608329892158508
+06:24:19.730 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testSuiteDidFinish:]
+06:24:19.731 Xcode[15357:191164] _XCT_testSuite:All tests didFinishAt:2017-05-24 03:24:19 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:0.3590250015258789 totalDuration:0.3620479702949524
+06:24:19.731 CoreDataDeneme[18430:218356] Finished running suite.
+Test Suite 'CoreDataDenemeTests' passed at 2017-05-24 06:24:19.730.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.359 (0.360) seconds
+Test Suite 'CoreDataDenemeTests.xctest' passed at 2017-05-24 06:24:19.730.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.359 (0.361) seconds
+06:24:19.732 Xcode[15357:191164] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+06:24:19.731 CoreDataDeneme[18430:218356] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+06:24:19.731 CoreDataDeneme[18430:218356] Calling completion.
+06:24:19.731 CoreDataDeneme[18430:218356] <XCTWaiter: 0x60000001a6f0> entering wait loop for 15.00s
+06:24:19.732 Xcode[15357:191164] _finishWithError:(null) didCancel: 0
